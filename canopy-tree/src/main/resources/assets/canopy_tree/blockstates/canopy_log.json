@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":    { "model": "canopy_tree:block/canopy_log" },
+        "axis=z":     { "model": "canopy_tree:block/canopy_log", "x": 90 },
+        "axis=x":     { "model": "canopy_tree:block/canopy_log", "x": 90, "y": 90 }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "canopy_tree:canopy_planks"
+    }
+  },
+  "result": {
+    "item": "canopy_tree:canopy_boat"
+  }
+}

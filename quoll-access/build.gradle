@@ -1,0 +1,5 @@
+archivesBaseName = "quoll-access"
+version = project.version
+
+dependencies {
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "canopy_tree:canopy_logs"
+    }
+  ],
+  "result": {
+    "item": "canopy_tree:canopy_planks",
+    "count": 4
+  }
+}

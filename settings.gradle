@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        jcenter()
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        mavenLocal()
+    }
+}
+
+rootProject.name = 'quoll'
+
+include 'canopy-tree'
+include 'quoll-access'
+include 'quoll-math'

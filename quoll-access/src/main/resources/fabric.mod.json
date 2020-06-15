@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "quoll_access",
+  "version": "${version}",
+
+  "name": "Quoll Access",
+  "description": "A library that gives access to various parts of the vanilla code.",
+  "authors": [
+    "SollyW"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/QuollMC/quoll/quoll-access"
+  },
+
+  "license": "Apache-2.0",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "quoll_access.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.8.7"
+  }
+}

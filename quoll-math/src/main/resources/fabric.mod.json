@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "quoll_math",
+  "version": "${version}",
+
+  "name": "Quoll Math",
+  "description": "Utilities for vectors, world generation, etc.",
+  "authors": [
+    "SollyW"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/QuollMC/quoll/quoll-math"
+  },
+
+  "license": "Apache-2.0",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "quoll_math.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.8.7"
+  }
+}

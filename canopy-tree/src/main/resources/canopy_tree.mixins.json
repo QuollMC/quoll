@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sollyw.canopytree.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBoatEntity"
+  ],
+  "client": [
+    "client.MixinBoatEntityRenderer",
+    "client.MixinTexturedRenderLayers"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

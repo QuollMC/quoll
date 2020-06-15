@@ -1,0 +1,29 @@
+# Gradle
+.gradle
+
+# Eclipse
+.checkstyle
+.classpath
+.metadata
+.settings
+.project
+*.launch
+
+# Intellij
+.factorypath
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Build artifacts
+/bin/
+/build/
+/*/build/
+/jars/
+/out/
+/classes/
+
+# Debug artifacts
+/run/
+*.log

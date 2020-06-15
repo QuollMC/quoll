@@ -1,0 +1,6 @@
+{
+    "parent": "canopy_tree:block/template_directional_trapdoor_bottom_open",
+    "textures": {
+        "texture": "canopy_tree:block/canopy_trapdoor"
+    }
+}

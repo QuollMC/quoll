@@ -1,0 +1,21 @@
+{
+  "block.canopy_tree.canopy_planks": "Canopy Planks",
+  "block.canopy_tree.canopy_sapling": "Canopy Sapling",
+  "block.canopy_tree.canopy_door": "Canopy Door",
+  "block.canopy_tree.canopy_wood": "Canopy Wood",
+  "block.canopy_tree.canopy_log": "Canopy Log",
+  "block.canopy_tree.stripped_canopy_log": "Stripped Canopy Log",
+  "block.canopy_tree.stripped_canopy_wood": "Stripped Canopy Wood",
+  "block.canopy_tree.canopy_leaves": "Canopy Leaves",
+  "block.canopy_tree.canopy_slab": "Canopy Slab",
+  "block.canopy_tree.canopy_stairs": "Canopy Stairs",
+  "block.canopy_tree.canopy_sign": "Canopy Sign",
+  "block.canopy_tree.canopy_wall_sign": "Canopy Wall Sign",
+  "block.canopy_tree.canopy_pressure_plate": "Canopy Pressure Plate",
+  "block.canopy_tree.canopy_button": "Canopy Button",
+  "block.canopy_tree.canopy_fence": "Canopy Fence",
+  "block.canopy_tree.canopy_fence_gate": "Canopy Fence Gate",
+  "block.canopy_tree.canopy_trapdoor": "Canopy Trapdoor",
+  "block.canopy_tree.potted_canopy_sapling": "Potted Canopy Sapling",
+  "item.canopy_tree.canopy_boat": "Canopy Boat"
+}

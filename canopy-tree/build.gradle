@@ -1,0 +1,10 @@
+archivesBaseName = "canopy-tree"
+version = project.version
+
+dependencies {
+	implementation project(path: ':quoll-access')
+	implementation project(path: ':quoll-math')
+
+    modImplementation "com.github.Chocohead:Fabric-ASM:${project.fabric_asm_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "canopy_tree:block/stripped_canopy_log",
+        "side": "canopy_tree:block/stripped_canopy_log"
+    }
+}

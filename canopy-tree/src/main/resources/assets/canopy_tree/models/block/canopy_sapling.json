@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "canopy_tree:block/canopy_sapling"
+    }
+}

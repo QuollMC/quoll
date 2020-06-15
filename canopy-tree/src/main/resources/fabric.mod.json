@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "canopy_tree",
+  "version": "${version}",
+
+  "name": "Canopy Tree",
+  "description": "Canopy trees, originally from the Twilight Forest mod.",
+  "authors": [
+    "SollyW"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/QuollMC/quoll/canopy-tree"
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sollyw.canopytree.CanopyTree"
+    ],
+    "client": [
+      "com.sollyw.canopytree.CanopyTreeClient"
+    ],
+    "mm:early_risers": [
+      "com.sollyw.canopytree.CanopyTreeEarlyRiser"
+    ]
+  },
+  "mixins": [
+    "canopy_tree.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric-blockrenderlayer-v1": "*",
+    "fabric-object-builders-v0": "*",
+    "fabric-rendering-v1": "*",
+    "mm": ">=2.0"
+  }
+}

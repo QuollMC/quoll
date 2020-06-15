@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sollyw.quollaccess.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AxeItemAccessor",
+    "BlockEntityTypeAccessor",
+    "FoliagePlacerTypeAccessor",
+    "SignTypeAccessor",
+    "TrunkPlacerTypeAccessor",
+    "MixinAxeItem",
+    "MixinBlockEntityTypeBuilder"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

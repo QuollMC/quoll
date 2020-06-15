@@ -1,0 +1,6 @@
+{
+    "parent": "block/button_inventory",
+    "textures": {
+        "texture": "canopy_tree:block/canopy_planks"
+    }
+}

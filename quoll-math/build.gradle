@@ -1,0 +1,5 @@
+archivesBaseName = "quoll-math"
+version = project.version
+
+dependencies {
+}

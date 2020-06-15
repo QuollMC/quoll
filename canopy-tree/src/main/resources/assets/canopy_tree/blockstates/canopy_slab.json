@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "canopy_tree:block/canopy_slab" },
+        "type=top": { "model": "canopy_tree:block/canopy_slab_top" },
+        "type=double": { "model": "canopy_tree:block/canopy_planks" }
+    }
+}

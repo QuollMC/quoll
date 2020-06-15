@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "canopy_tree:block/stripped_canopy_wood" },
+        "axis=z": { "model": "canopy_tree:block/stripped_canopy_wood", "x": 90 },
+        "axis=x": { "model": "canopy_tree:block/stripped_canopy_wood", "x": 90, "y": 90 }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top",
+    "textures": {
+        "bottom": "canopy_tree:block/canopy_door_bottom",
+        "top": "canopy_tree:block/canopy_door_top"
+    }
+}
