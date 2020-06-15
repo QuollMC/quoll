@@ -2,11 +2,6 @@ package com.sollyw.canopytree;
 
 import com.sollyw.canopytree.registry.*;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.registry.Registry;
-import net.minecraft.world.gen.GenerationStep;
-import net.minecraft.world.gen.decorator.CountExtraChanceDecoratorConfig;
-import net.minecraft.world.gen.decorator.Decorator;
-import net.minecraft.world.gen.feature.Feature;
 
 public class CanopyTree implements ModInitializer {
     @Override

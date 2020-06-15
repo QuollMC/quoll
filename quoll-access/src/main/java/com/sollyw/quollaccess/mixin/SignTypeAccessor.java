@@ -6,6 +6,7 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 
 @Mixin(SignType.class)
 public interface SignTypeAccessor {
+    @SuppressWarnings("UnusedReturnValue")
     @Invoker
     static SignType callRegister(SignType type) {
         throw new AssertionError();

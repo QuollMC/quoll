@@ -13,8 +13,11 @@ subprojects {
     group = "com.sollyw.quoll"
 
     dependencies {
+        //noinspection GrUnresolvedAccess
         minecraft "com.mojang:minecraft:${project.minecraft_version}"
+        //noinspection GrUnresolvedAccess
         mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+        //noinspection GrUnresolvedAccess
         modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
     }
 
@@ -28,28 +31,37 @@ subprojects {
     processResources {
         inputs.property "version", project.version
 
+        //noinspection GrUnresolvedAccess
         from(sourceSets.main.resources.srcDirs) {
             include "fabric.mod.json"
             expand "version": project.version
         }
 
+        //noinspection GrUnresolvedAccess
         from(sourceSets.main.resources.srcDirs) {
             exclude "fabric.mod.json"
         }
     }
 
     task sourcesJar(type: Jar, dependsOn: classes) {
+        //noinspection GroovyAssignabilityCheck
         archiveClassifier = "sources"
+        //noinspection GrUnresolvedAccess
         from sourceSets.main.allSource
     }
 
     publishing {
         publications {
+            //noinspection GroovyAssignabilityCheck
             mavenJava(MavenPublication) {
+                //noinspection GroovyAssignabilityCheck
                 artifact(remapJar) {
+                    //noinspection GroovyAssignabilityCheck
                     builtBy remapJar
                 }
+                //noinspection GroovyAssignabilityCheck
                 artifact(sourcesJar) {
+                    //noinspection GroovyAssignabilityCheck
                     builtBy remapSourcesJar
                 }
             }

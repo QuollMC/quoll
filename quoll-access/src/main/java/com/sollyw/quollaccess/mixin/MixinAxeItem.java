@@ -13,6 +13,7 @@ import java.util.Map;
 // Makes the STRIPPED_BLOCKS map mutable.
 @Mixin(AxeItem.class)
 public abstract class MixinAxeItem {
+    @SuppressWarnings("CanBeFinal")
     @Shadow
     @Final
     @Mutable
