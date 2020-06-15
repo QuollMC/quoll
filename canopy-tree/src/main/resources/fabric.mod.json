@@ -33,6 +33,9 @@
   ],
 
   "depends": {
+    "quoll_access": "*",
+    "quoll_math": "*",
+
     "fabricloader": ">=0.8.7",
     "fabric-blockrenderlayer-v1": "*",
     "fabric-object-builders-v0": "*",
