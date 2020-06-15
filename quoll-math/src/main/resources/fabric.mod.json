@@ -17,11 +17,6 @@
   "icon": "",
 
   "environment": "*",
-  "entrypoints": {
-  },
-  "mixins": [
-    "quoll_math.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.8.7"
