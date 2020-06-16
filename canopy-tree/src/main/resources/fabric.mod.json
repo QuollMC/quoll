@@ -41,5 +41,9 @@
     "fabric-object-builders-v0": "*",
     "fabric-rendering-v1": "*",
     "mm": ">=2.0"
+  },
+
+  "suggests": {
+    "phosphor": "*"
   }
 }
